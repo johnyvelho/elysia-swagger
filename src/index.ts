@@ -147,7 +147,7 @@ export const swagger = <Path extends string = '/swagger'>({
 			}
 
 			return {
-				openapi: '3.0.3',
+				openapi: '3.1.0',
 				...{
 					...documentation,
 					tags: documentation.tags?.filter(
